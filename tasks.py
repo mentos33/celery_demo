@@ -1,5 +1,5 @@
 from __future__ import absolute_import
-from celery_proj import app
+from celery_demo.celery import app
 
 @app.task
 def add(x,y):
