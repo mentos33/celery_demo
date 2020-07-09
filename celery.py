@@ -5,4 +5,5 @@ app = Celery('celery_demo',include=['celery_demo.tasks'])
 app.config_from_object('celery_demo.celeryconfig')
 
 if __name__ == "__main__":
+    #冲突测试1
     app.start()
